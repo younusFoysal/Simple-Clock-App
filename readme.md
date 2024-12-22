@@ -1,72 +1,65 @@
-Scenario: Consider you have been asked to develop a generic library catalog in Java that can store and manage different types of library items.  
-
-You are tasked with utilizing generic classes and methods to ensure flexibility and code reusability. 
-
-Requirements: 
+Assignment Title: Simple Clock Application
+Through this assignment, you will gain knowledge and skills in understanding the basics of the Java Thread model. You will also be able to gain your skills in the implementation of multithreading concepts and the usage of thread priorities for task prioritization in a real-life clock application. 
 
 
-Generic Catalog Class: 
-a. Implement a generic catalog class that can store information about library items (e.g., books, DVDs, magazines). 
+Assignment Instructions
 
-b. Ensure that the catalog works seamlessly with different types of items by using generics. 
+Scenario: You are tasked with developing a simple clock application that utilizes Java threads to display the current time and date concurrently. This project aims to explore the Java Thread model and its basics while illustrating the use of threads and their priorities in a straightforward real-life scenario.  
 
-
-Library Item Class: 
-a. Create a generic LibraryItem class with attributes such as title, author, and itemID 
-
-b. Ensure that the LibraryItem class is compatible with the generic catalog. 
+Requirements:  
 
 
-Library Operations: 
-a. Develop methods within the generic catalog to add a new library item, remove an item, and retrieve item details. 
+Clock Class:  
+a. Create a Clock class responsible for displaying the current time and date.  
 
-b. Implement error handling to manage scenarios such as attempting to remove a non-existent item. 
+b. Implement a method to continuously update and print the current time.  
+
+Thread Implementation:  
+a. Utilize Java threads to ensure that the clock continuously updates its time in the background.  
+
+b. Implement a separate thread for printing the time to the console.  
 
 
-User Interface: 
-a. Create a simple command-line interface for users to interact with the library catalog. 
+Thread Priorities:   
+a. Introduce thread priorities for better timekeeping precision.  
 
-b. Allow users to add a new library item, remove an item, and view the current catalog. 
+b. The clock display thread should have a higher priority than the background updating thread.  
 
 
-Testing: 
-a. Implement comprehensive testing for your generic catalog and LibraryItem class. 
+Simulation Output:    
+a. Display the current time and date in a readable format, e.g., "HH:mm:ss dd-MM-yyyy".  
 
-b. Test scenarios should include adding and removing items, ensuring the catalog works with various types of library items. 
+b. Ensure that the clock continuously updates the time.  
 
 
 
 
 Guidelines
-Utilize generic classes and methods to create a flexible and reusable library catalog. 
-Focus on code modularity and reusability by using generics effectively. 
-Implement exception handling to manage unexpected scenarios gracefully. 
-Provide clear and concise comments and documentation for your code. 
+Use meaningful variable and method names.  
+Implement proper error handling where necessary.  
+Ensure that your code is well-organized and follows Java coding standards.  
+Provide comments to explain the purpose of classes, methods, and any complex logic.  
 
 
 
 Deliverables
-1. Java Program Source Code:  
+Java Program Source Code:  
+a. Includes the Clock class and necessary threads.  
 
+b. Demonstrates the use of thread priorities for better precision.  
 
-Submit a well documented source code.
-Implement generic classes and methods for creating generic library catalog.
+Output Screenshot:  
+a. Provide a screenshot of the program's output, showcasing the continuously updating clock with different thread priorities.  
 
-2. Output Screenshot:  
-
-
-Provide a screenshot of the program's output.
 
 
 
 Grading Criteria
 Your assignment will be evaluated based on the following criteria:  
 
-Implementation of Generic Class: Implement a generic catalog class that can store information about library items. Ensure seamless compatibility with different types of items using generics. 
-Implementation of Generic Methods: Create a generic LibraryItem class with attributes such as title, author, and itemID. Ensure compatibility with the generic catalog. 
-Library operations: Develop methods in the generic catalog to add a new library item, remove an item, and retrieve item details. 
-Error Handling: Implement error handling to manage scenarios such as attempting to remove a non-existent item. Errors should be handled gracefully with clear messages. 
-Logic and Computation. 
-Program Flow and Structure. 
-Output. 
-Code style and readability. 
+
+Clock Class: The Clock class should accurately display the current time and date. The method responsible for updating and printing the time should work as expected. Use of meaningful variable and method names, proper error handling, adherence to Java coding standards, and well-organized code. 
+Thread Implementation: Threads should be appropriately used to ensure the clock continuously updates its time in the background. There should be a separate thread for printing the time to the console.  Ensure proper synchronization and handling of concurrency issues. Threads should work seamlessly without conflicts. 
+Thread Priorities: Thread priorities should be introduced to achieve better timekeeping precision. The clock display thread should have a higher priority than the background updating thread. 
+Readability and Continuity: The displayed time and date should be in a readable format, and the clock should continuously update. 
+Screenshot: Provide a screenshot of the program's output, showcasing the continuously updating clock with different thread priorities. 
